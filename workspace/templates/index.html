@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> happy lottery world </title>
+
+</head>
+
+<body>
+    
+    <header>
+        <center><h1> Welcome to lottery world operated by raccooncho </h1></center>
+    </header>
+    <br><br>
+    <div>
+        <center>
+        <h2> happy lotto~! </h2>
+        <p> Today's your lucky numbers is <strong>{{ numbers }}</strong> Buy your lottery now!</p>
+        <p> And i also provide weekly lottery numbers. </p>
+        <p> This week's selected numbers are <strong>{{ real }}</strong> </p>
+        <p> Moreover 2nd bonus number is <strong>{{ bonus }}</strong> </p>
+        <p> To check your luck imediatly, visit <a href="/amilucky?rounds=837"> here </a></p>
+        <form action="/amilucky" > 
+            <h3> Input round </h3> 
+            <input type="number" min="1" max="837" placeholder="837" name="rounds" />
+            <input type="submit" value="good luck!" />
+        </form><br>
+        <p> I wish your lucky week. </p>
+        <p> Thanks for using my service. </p>
+        </center>
+    </div>
+    <br><br><br>
+    <footer>
+        <center>
+        <h2> About me </h2>
+        <p> To know me, please visit <a href="/raccooncho"> <strong> here </strong></a></p>
+        <h3> Contact information </h3>
+        <p> <strong> mobile </strong> phone 01090559017 </p>
+        <p> <strong> email </strong> wjtjdrb@naver.com </p>
+        </center>
+    </footer>
+   
+</body>
+
+</html>

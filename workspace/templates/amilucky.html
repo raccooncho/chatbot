@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Am I Lucky? </title>
+    
+</head>
+
+<body>
+    
+    <header> 
+        <center>
+        <h1> Okay, Now it is time to test your luck!!! </h1>
+        </center>
+    </header>
+    
+    <div>
+        <center>
+        <h2> It is your {{ rounds }}th game result </h2>
+        <p> your lucky numbers are </p2>
+        <h2> {{ pick_num }} </h2>
+        <p> and, This week's lottery numbers are </p>
+        <h2> {{ real_num }} </h2> 
+        <p> Plus, The bonus number for 2nd winner is </p>
+        <h2> {{ bonus_num }} </h2>
+        <p> How much numbers are matched? </p>
+        <p> You matched </p>
+        <h3> {{ match_num }} </h3>
+        <p> So you are </p>
+        <h1> {{ result }} </h1>
+        <p> Congraturation!!!! </p>
+        </center>
+    </div>
+    
+    <footer>
+        <center>
+        <a href="../">Go to main page</a><br>
+        <a onClick="window.location.reload()" style="cursor: pointer;">[ reload ]</a>
+        </center>
+    </footer>
+    
+</body>
+
+</html>
